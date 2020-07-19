@@ -14,10 +14,9 @@ public class PizzaApp {
         // krojenie()
         // pakowanie()
 
-//        Pizzeria wloskaPizzeria = new WloskaPizzeria();
-//        Pizza wloskaPizzaSerowa = wloskaPizzeria.zamowPizza("serowa");
-//        System.out.println(wloskaPizzaSerowa);
-//
+        Pizzeria wloskaPizzeria = new WloskaPizzeria();
+        Pizza wloskaPizzaSerowa = wloskaPizzeria.orderPizza("serowa");
+
 //        Pizzeria amerykanskaPizzeria = new AmerykanskaPizzeria();
 //        Pizza amerykanskaPizzaSerowa = amerykanskaPizzeria.zamowPizza("serowa");
     }
